@@ -40,4 +40,8 @@ public class BordersController {
 		assert txtAnno != null : "fx:id=\"txtAnno\" was not injected: check your FXML file 'Borders.fxml'.";
 		assert txtResult != null : "fx:id=\"txtResult\" was not injected: check your FXML file 'Borders.fxml'.";
 	}
+	
+	public void setModel(Model model) {
+		this.model = model;
+	}
 }
